@@ -1,4 +1,4 @@
-var playlist = new Object();
+var playlist = new Object({ artistName: 'songTitle'});
 
 function updatePlaylist(playlist, artist, song){
   playlist.artist = song
@@ -9,3 +9,4 @@ function removePlaylist(playlist, artist){
   delete playlist.artist
   return playlist
 }
+
