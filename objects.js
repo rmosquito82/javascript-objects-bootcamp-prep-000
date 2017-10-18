@@ -9,4 +9,3 @@ function removePlaylist(playlist, artist){
   delete playlist.artist
   return playlist
 }
-
